@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-
-
 # Convolutional Neural Network
 """
 
@@ -20,7 +17,7 @@ from keras.preprocessing import image
 
 from flwr.common import strategy
 
-# Flower Client and Server Definitions (assuming Flower is installed)
+# Flower Client and Server Definitions 
 def fit_on_client(self, calib_data, config):
   """
   Trains the model on the client's data using FedBN.
@@ -33,7 +30,7 @@ def fit_on_client(self, calib_data, config):
     A list of updates (weights) for the server.
   """
 
-  # Preprocess client data (assuming data is already preprocessed in your script)
+  # Preprocess client data 
   # ... your existing data preprocessing code ...
 
   # Create a shadow copy of the base model
